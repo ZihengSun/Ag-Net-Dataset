@@ -11,7 +11,7 @@ The input folder contains the band of Landsat 8. Each file name is constructed i
 
 The target folder contains the corresponding tiles. The file name is composed of:
 
-` cdl_{landsat observation date}_{row number}_{column number}_{band number}.tif `
+` cdl_{landsat observation date}_{row number}_{column number}.tif `
 
 The value of CDL ranges from 0 to 255. Each value represents a crop type or non-crop land cover. The CDL value explanation table is [here](cdlvalue.csv).
 
