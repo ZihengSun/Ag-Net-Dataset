@@ -5,9 +5,15 @@ Example datasets for training and testing ag-net for crop recognition
 
 This is related to ESIP Google Summer of Code project idea - [AgNet](https://github.com/ESIPFed/gsoc/issues/13)
 
-The input folder contains the seven bands of Landsat 8. Each file name is constructed in this pattern: 
+The input folder contains the 8bit version of seven bands of Landsat 8. Each file name is constructed in this pattern: 
 
 ` lc8_{observation_date}_{row number}_{column number}_{band number}.tif `
+
+The input_32bit contains the original values of Landsat 8. The valid value range is 0-10000. The file name structure is the same.
+
+The input_rgb contains a RGB composite of Landsat 8 band 2, 3, 4. The file name structure is:
+
+` lc8_{observation_date}_{row number}_{column number}_rgb.tif `
 
 The target folder contains the corresponding tiles. The file name is composed of:
 

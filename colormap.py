@@ -271,4 +271,8 @@ def getCDLRGB(cdlvalue):
     rgb = hex_to_rgb(hex)
     return rgb
 
+<<<<<<< HEAD
 print("The color of class 5 is: ", getCDLRGB(5));
+=======
+print("The color of class 5 is: ", getCDLRGB(5));
+>>>>>>> 76528e1aa72e1dd0619c6174ce0e600cfe135855
